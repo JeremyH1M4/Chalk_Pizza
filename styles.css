@@ -1,0 +1,133 @@
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+#subtx {
+    font-size: 0.8em; /* Makes the sub-text smaller */
+  color: rgb(102, 102, 102);      /* Changes the color */
+  margin-top: 2px;   /* Adds spacing from the main text */
+}
+#Q{
+    margin-right:-460px;
+    width: 42px;
+    height: 45px;
+
+}
+header {
+    display:flex;
+    justify-content: space-between;
+}
+
+#rss {
+    margin-left: 20px;
+}
+
+#border {
+    background-size: 4px 10px;
+    background-image: url("hr-img.png");
+    background-repeat:repeat-x;
+    width: 900px;
+    margin-left:100px;
+    margin-top:2.5em;
+    display:flex;
+    justify-content: space-between;
+}
+
+#Chalk {
+    display:block;
+    margin: auto;
+}
+
+.Tastes-Like-Chalk {
+    display: block;
+    margin: auto;
+}
+
+#T {
+    height:305px;
+    background-image: url(list-bg.png);
+    margin-bottom: auto;
+}
+
+table {
+     margin-right: 10px;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+#Fbutton {
+    border: 1px solid rgba(37, 150, 190);
+}
+
+
+.BP  div,
+.BP img{
+ margin-top:40px;
+}
+
+.FT {
+    margin-left: 5px;
+}
+.BR {
+    display:inline;
+}
+input[type="checkbox"]:checked ~ span {
+  text-decoration: line-through;
+}
+
+.A1 {
+    margin-top:30px;
+    background-image:url("list-bg.png");
+    width:900px;
+    margin-left:100px;
+    display:flex;
+}
+.A1 div,
+.A1 ul,
+.A1 li{
+display:block;
+text-align:left;
+}
+
+.A1 li {
+    font-size:large;
+}
+
+.A1 ul {
+    padding: 40px;
+}
+
+.B1{
+    display: inline;
+margin-left:150px;
+}
+
+.B2 {
+display: inline;
+margin-right:150px;
+}
+
+.BTN {
+    display:flex;
+    align-items:center;
+    width:250px;
+    background-color:rgb(188, 112, 88);
+    color:white;
+}
+.BTN2 {
+    margin-left: 21px;
+    text-align:center;
+    vertical-align:center;
+}
+
+C1{
+display: inline;
+}
+C2{
+    display: inline;
+}
